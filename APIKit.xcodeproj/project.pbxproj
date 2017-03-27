@@ -35,6 +35,9 @@
 		0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/iOS/ProcedureKit.framework; sourceTree = "<group>"; };
 		0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/iOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
 		0BD1A6891E893C6200EA0C1A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0BD1A68D1E8941D200EA0C1A /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		0BD1A68E1E8941D900EA0C1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0BD1A6911E89425400EA0C1A /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmarshallProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidation.swift; sourceTree = "<group>"; };
@@ -57,8 +60,11 @@
 		0BBD58021E66DA190032256B = {
 			isa = PBXGroup;
 			children = (
+				0BD1A68E1E8941D900EA0C1A /* README.md */,
+				0BD1A68D1E8941D200EA0C1A /* Gemfile */,
 				0BBD58221E66DB8C0032256B /* Cartfile */,
 				0BBD581E1E66DAF20032256B /* .jazzy.yaml */,
+				0BD1A6901E89425400EA0C1A /* fastlane */,
 				0BBD581C1E66DAE70032256B /* .swiftlint.yml */,
 				0BBD58171E66DABC0032256B /* Sources */,
 				0BBD580D1E66DA190032256B /* Products */,
@@ -107,6 +113,14 @@
 				0BBD58201E66DB550032256B /* JSON.swift */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		0BD1A6901E89425400EA0C1A /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1A6911E89425400EA0C1A /* Fastfile */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

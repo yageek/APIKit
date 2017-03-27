@@ -24,6 +24,7 @@ public struct DefaultValidation: RequestValidation {
         }
     }
 }
+
 final class ValidateResponseProcedure<Payload: Equatable>: Procedure, InputProcedure, OutputProcedure {
 
     var input: Pending<HTTPPayloadResponse<Payload>> = .pending

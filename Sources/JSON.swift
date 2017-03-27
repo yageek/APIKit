@@ -19,5 +19,4 @@ public struct JSON: Marshaller, UnmarshallerStream, Unmarshaller {
     public func marshal(value: Any) throws -> Data {
         return try JSONSerialization.data(withJSONObject: value, options: [])
     }
-
 }

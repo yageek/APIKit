@@ -1,0 +1,5 @@
+lane :build do
+    bundle_install
+    xcodebuild(scheme: "APIKit", project: "APIKit.xcodeproj")
+    jazzy(config: ".jazzy.yaml")
+end
