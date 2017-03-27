@@ -39,6 +39,19 @@
 		0BD1A6C41E8944B100EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
 		0BD1A6C71E8944C500EA0C1A /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6C51E8944C500EA0C1A /* ProcedureKit.framework */; };
 		0BD1A6C81E8944C500EA0C1A /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6C61E8944C500EA0C1A /* ProcedureKitNetwork.framework */; };
+		0BD1A6D21E8944F200EA0C1A /* APIKit-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD1A6D61E89450800EA0C1A /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD58181E66DABC0032256B /* APIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD1A6D71E89450F00EA0C1A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58201E66DB550032256B /* JSON.swift */; };
+		0BD1A6D81E89450F00EA0C1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58241E66DC390032256B /* Endpoint.swift */; };
+		0BD1A6D91E89450F00EA0C1A /* Marshalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58261E66DD350032256B /* Marshalling.swift */; };
+		0BD1A6DA1E89450F00EA0C1A /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
+		0BD1A6DB1E89450F00EA0C1A /* BuildRequestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */; };
+		0BD1A6DC1E89450F00EA0C1A /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
+		0BD1A6DD1E89450F00EA0C1A /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
+		0BD1A6DE1E89450F00EA0C1A /* ValidateResponseProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */; };
+		0BD1A6DF1E89450F00EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
+		0BD1A6E21E89452B00EA0C1A /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */; };
+		0BD1A6E31E89452B00EA0C1A /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */; };
 		0BDCA44B1E793646001D5443 /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
 		0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
 		0BDCA44F1E793A5B001D5443 /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
@@ -68,6 +81,11 @@
 		0BD1A6B31E89448A00EA0C1A /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD1A6C51E8944C500EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/watchOS/ProcedureKit.framework; sourceTree = "<group>"; };
 		0BD1A6C61E8944C500EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/watchOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
+		0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIKit-tvOS.h"; sourceTree = "<group>"; };
+		0BD1A6D11E8944F200EA0C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/tvOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
+		0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/tvOS/ProcedureKit.framework; sourceTree = "<group>"; };
 		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmarshallProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidation.swift; sourceTree = "<group>"; };
@@ -102,6 +120,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BD1A6CA1E8944F100EA0C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6E21E89452B00EA0C1A /* ProcedureKitNetwork.framework in Frameworks */,
+				0BD1A6E31E89452B00EA0C1A /* ProcedureKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,6 +142,7 @@
 				0BD1A6901E89425400EA0C1A /* fastlane */,
 				0BBD581C1E66DAE70032256B /* .swiftlint.yml */,
 				0BBD58171E66DABC0032256B /* Sources */,
+				0BD1A6CF1E8944F200EA0C1A /* APIKit-tvOS */,
 				0BBD580D1E66DA190032256B /* Products */,
 				0BBD582A1E66DE8A0032256B /* Frameworks */,
 			);
@@ -126,6 +154,7 @@
 				0BBD580C1E66DA190032256B /* APIKit.framework */,
 				0BD1A6971E8943C400EA0C1A /* APIKit.framework */,
 				0BD1A6B31E89448A00EA0C1A /* APIKit.framework */,
+				0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +180,8 @@
 		0BBD582A1E66DE8A0032256B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */,
+				0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */,
 				0BD1A6C51E8944C500EA0C1A /* ProcedureKit.framework */,
 				0BD1A6C61E8944C500EA0C1A /* ProcedureKitNetwork.framework */,
 				0BD1A6AA1E89445E00EA0C1A /* ProcedureKit.framework */,
@@ -177,6 +208,15 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
+		0BD1A6CF1E8944F200EA0C1A /* APIKit-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */,
+				0BD1A6D11E8944F200EA0C1A /* Info.plist */,
+			);
+			path = "APIKit-tvOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -201,6 +241,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD1A6BB1E8944A600EA0C1A /* APIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6CB1E8944F100EA0C1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6D61E89450800EA0C1A /* APIKit.h in Headers */,
+				0BD1A6D21E8944F200EA0C1A /* APIKit-tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +312,24 @@
 			productReference = 0BD1A6B31E89448A00EA0C1A /* APIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		0BD1A6CD1E8944F100EA0C1A /* APIKit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD1A6D31E8944F200EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-tvOS" */;
+			buildPhases = (
+				0BD1A6C91E8944F100EA0C1A /* Sources */,
+				0BD1A6CA1E8944F100EA0C1A /* Frameworks */,
+				0BD1A6CB1E8944F100EA0C1A /* Headers */,
+				0BD1A6CC1E8944F100EA0C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APIKit-tvOS";
+			productName = "APIKit-tvOS";
+			productReference = 0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,6 +352,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					0BD1A6CD1E8944F100EA0C1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0BBD58061E66DA190032256B /* Build configuration list for PBXProject "APIKit" */;
@@ -302,6 +373,7 @@
 				0BBD580B1E66DA190032256B /* APIKit-iOS */,
 				0BD1A6961E8943C400EA0C1A /* APIKit-macOS */,
 				0BD1A6B21E89448A00EA0C1A /* APIKit-watchOS */,
+				0BD1A6CD1E8944F100EA0C1A /* APIKit-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -322,6 +394,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0BD1A6B11E89448A00EA0C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6CC1E8944F100EA0C1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,6 +488,22 @@
 				0BD1A6BE1E8944B100EA0C1A /* Marshalling.swift in Sources */,
 				0BD1A6C41E8944B100EA0C1A /* Error.swift in Sources */,
 				0BD1A6BC1E8944B100EA0C1A /* JSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6C91E8944F100EA0C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6D81E89450F00EA0C1A /* Endpoint.swift in Sources */,
+				0BD1A6DC1E89450F00EA0C1A /* DownloadProcedure.swift in Sources */,
+				0BD1A6DA1E89450F00EA0C1A /* ResponseValidation.swift in Sources */,
+				0BD1A6DD1E89450F00EA0C1A /* UnmarshallProcedure.swift in Sources */,
+				0BD1A6DE1E89450F00EA0C1A /* ValidateResponseProcedure.swift in Sources */,
+				0BD1A6DB1E89450F00EA0C1A /* BuildRequestProcedure.swift in Sources */,
+				0BD1A6D91E89450F00EA0C1A /* Marshalling.swift in Sources */,
+				0BD1A6DF1E89450F00EA0C1A /* Error.swift in Sources */,
+				0BD1A6D71E89450F00EA0C1A /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +760,56 @@
 			};
 			name = Release;
 		};
+		0BD1A6D41E8944F200EA0C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-tvOS";
+				PRODUCT_NAME = APIKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		0BD1A6D51E8944F200EA0C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-tvOS";
+				PRODUCT_NAME = APIKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -699,6 +844,14 @@
 			buildConfigurations = (
 				0BD1A6B91E89448A00EA0C1A /* Debug */,
 				0BD1A6BA1E89448A00EA0C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BD1A6D31E8944F200EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD1A6D41E8944F200EA0C1A /* Debug */,
+				0BD1A6D51E8944F200EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
