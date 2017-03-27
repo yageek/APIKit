@@ -15,6 +15,18 @@
 		0BBD582C1E66DE8A0032256B /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */; };
 		0BBD582E1E66DE950032256B /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */; };
 		0BD1A68A1E893C6200EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
+		0BD1A69F1E8943E700EA0C1A /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD58181E66DABC0032256B /* APIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD1A6A01E89440300EA0C1A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58201E66DB550032256B /* JSON.swift */; };
+		0BD1A6A11E89440700EA0C1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58241E66DC390032256B /* Endpoint.swift */; };
+		0BD1A6A21E89440700EA0C1A /* Marshalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58261E66DD350032256B /* Marshalling.swift */; };
+		0BD1A6A31E89440700EA0C1A /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
+		0BD1A6A41E89440700EA0C1A /* BuildRequestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */; };
+		0BD1A6A51E89440700EA0C1A /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
+		0BD1A6A61E89440700EA0C1A /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
+		0BD1A6A71E89440700EA0C1A /* ValidateResponseProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */; };
+		0BD1A6A81E89440700EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
+		0BD1A6AC1E89445E00EA0C1A /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6AA1E89445E00EA0C1A /* ProcedureKit.framework */; };
+		0BD1A6AD1E89445E00EA0C1A /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6AB1E89445E00EA0C1A /* ProcedureKitNetwork.framework */; };
 		0BDCA44B1E793646001D5443 /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
 		0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
 		0BDCA44F1E793A5B001D5443 /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
@@ -38,6 +50,9 @@
 		0BD1A68D1E8941D200EA0C1A /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		0BD1A68E1E8941D900EA0C1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0BD1A6911E89425400EA0C1A /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		0BD1A6971E8943C400EA0C1A /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1A6AA1E89445E00EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/Mac/ProcedureKit.framework; sourceTree = "<group>"; };
+		0BD1A6AB1E89445E00EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/Mac/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
 		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmarshallProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidation.swift; sourceTree = "<group>"; };
@@ -51,6 +66,15 @@
 			files = (
 				0BBD582E1E66DE950032256B /* ProcedureKitNetwork.framework in Frameworks */,
 				0BBD582C1E66DE8A0032256B /* ProcedureKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6931E8943C400EA0C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6AC1E89445E00EA0C1A /* ProcedureKit.framework in Frameworks */,
+				0BD1A6AD1E89445E00EA0C1A /* ProcedureKitNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				0BBD580C1E66DA190032256B /* APIKit.framework */,
+				0BD1A6971E8943C400EA0C1A /* APIKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +126,8 @@
 		0BBD582A1E66DE8A0032256B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0BD1A6AA1E89445E00EA0C1A /* ProcedureKit.framework */,
+				0BD1A6AB1E89445E00EA0C1A /* ProcedureKitNetwork.framework */,
 				0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */,
 				0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */,
 			);
@@ -134,12 +161,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BD1A6941E8943C400EA0C1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A69F1E8943E700EA0C1A /* APIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BBD580B1E66DA190032256B /* APIKit */ = {
+		0BBD580B1E66DA190032256B /* APIKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BBD58141E66DA190032256B /* Build configuration list for PBXNativeTarget "APIKit" */;
+			buildConfigurationList = 0BBD58141E66DA190032256B /* Build configuration list for PBXNativeTarget "APIKit-iOS" */;
 			buildPhases = (
 				0BBD58071E66DA190032256B /* Sources */,
 				0BBD58081E66DA190032256B /* Frameworks */,
@@ -152,9 +187,27 @@
 			);
 			dependencies = (
 			);
-			name = APIKit;
+			name = "APIKit-iOS";
 			productName = APIKit;
 			productReference = 0BBD580C1E66DA190032256B /* APIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0BD1A6961E8943C400EA0C1A /* APIKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD1A69C1E8943C400EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-macOS" */;
+			buildPhases = (
+				0BD1A6921E8943C400EA0C1A /* Sources */,
+				0BD1A6931E8943C400EA0C1A /* Frameworks */,
+				0BD1A6941E8943C400EA0C1A /* Headers */,
+				0BD1A6951E8943C400EA0C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APIKit-macOS";
+			productName = "APIKit-macOS";
+			productReference = 0BD1A6971E8943C400EA0C1A /* APIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -171,6 +224,10 @@
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
+					0BD1A6961E8943C400EA0C1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 0BBD58061E66DA190032256B /* Build configuration list for PBXProject "APIKit" */;
@@ -185,13 +242,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BBD580B1E66DA190032256B /* APIKit */,
+				0BBD580B1E66DA190032256B /* APIKit-iOS */,
+				0BD1A6961E8943C400EA0C1A /* APIKit-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0BBD580A1E66DA190032256B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6951E8943C400EA0C1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,6 +312,22 @@
 				0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */,
 				0BD1A68A1E893C6200EA0C1A /* Error.swift in Sources */,
 				0BBD58291E66DE6D0032256B /* BuildRequestProcedure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6921E8943C400EA0C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6A11E89440700EA0C1A /* Endpoint.swift in Sources */,
+				0BD1A6A51E89440700EA0C1A /* DownloadProcedure.swift in Sources */,
+				0BD1A6A31E89440700EA0C1A /* ResponseValidation.swift in Sources */,
+				0BD1A6A61E89440700EA0C1A /* UnmarshallProcedure.swift in Sources */,
+				0BD1A6A71E89440700EA0C1A /* ValidateResponseProcedure.swift in Sources */,
+				0BD1A6A41E89440700EA0C1A /* BuildRequestProcedure.swift in Sources */,
+				0BD1A6A21E89440700EA0C1A /* Marshalling.swift in Sources */,
+				0BD1A6A81E89440700EA0C1A /* Error.swift in Sources */,
+				0BD1A6A01E89440300EA0C1A /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +450,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = APIKit;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -393,7 +474,59 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = APIKit;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0BD1A69D1E8943C400EA0C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-macOS";
+				PRODUCT_NAME = APIKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0BD1A69E1E8943C400EA0C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-macOS";
+				PRODUCT_NAME = APIKit;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -411,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BBD58141E66DA190032256B /* Build configuration list for PBXNativeTarget "APIKit" */ = {
+		0BBD58141E66DA190032256B /* Build configuration list for PBXNativeTarget "APIKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BBD58151E66DA190032256B /* Debug */,
@@ -419,6 +552,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0BD1A69C1E8943C400EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD1A69D1E8943C400EA0C1A /* Debug */,
+				0BD1A69E1E8943C400EA0C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

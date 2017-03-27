@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BBD580B1E66DA190032256B"
                BuildableName = "APIKit.framework"
-               BlueprintName = "APIKit"
+               BlueprintName = "APIKit-iOS"
                ReferencedContainer = "container:APIKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BBD580B1E66DA190032256B"
             BuildableName = "APIKit.framework"
-            BlueprintName = "APIKit"
+            BlueprintName = "APIKit-iOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BBD580B1E66DA190032256B"
             BuildableName = "APIKit.framework"
-            BlueprintName = "APIKit"
+            BlueprintName = "APIKit-iOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
