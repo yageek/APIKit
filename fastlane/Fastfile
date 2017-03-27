@@ -6,3 +6,18 @@ lane :build do
     xcodebuild(scheme: "APIKit-watchOS", project: "APIKit.xcodeproj")
     jazzy(config: ".jazzy.yaml")
 end
+
+lane :test do
+    bundle_install
+    scan(scheme: "APIKit-iOS", project: "APIKit.xcodeproj")
+    scan(scheme: "APIKit-macOS", project: "APIKit.xcodeproj")
+    scan(scheme: "APIKit-tvOS", project: "APIKit.xcodeproj")
+    scan(scheme: "APIKit-watchOS", project: "APIKit.xcodeproj")
+     slather(
+        html: true,
+        output_directory: "fastlane/coverage_output",
+        proj: "APIKit.xcodeproj",
+        scheme: "APIKit-macOS",
+        ignore:['../../*']
+    )
+end

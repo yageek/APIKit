@@ -51,11 +51,42 @@
 		0BD1A6DF1E89450F00EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
 		0BD1A6E21E89452B00EA0C1A /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */; };
 		0BD1A6E31E89452B00EA0C1A /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */; };
+		0BD1A6EB1E8945E700EA0C1A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6EA1E8945E700EA0C1A /* Tests.swift */; };
+		0BD1A6ED1E8945E700EA0C1A /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD580C1E66DA190032256B /* APIKit.framework */; };
+		0BD1A6FC1E89467500EA0C1A /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6971E8943C400EA0C1A /* APIKit.framework */; };
+		0BD1A7021E8946A900EA0C1A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6EA1E8945E700EA0C1A /* Tests.swift */; };
+		0BD1A70A1E8946CC00EA0C1A /* Tests_tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A7091E8946CC00EA0C1A /* Tests_tvOS.swift */; };
+		0BD1A70C1E8946CC00EA0C1A /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */; };
+		0BD1A7121E8946E400EA0C1A /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6EA1E8945E700EA0C1A /* Tests.swift */; };
 		0BDCA44B1E793646001D5443 /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
 		0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
 		0BDCA44F1E793A5B001D5443 /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
 		0BDCA4511E793B08001D5443 /* ValidateResponseProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BD1A6EE1E8945E700EA0C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBD58031E66DA190032256B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBD580B1E66DA190032256B;
+			remoteInfo = "APIKit-iOS";
+		};
+		0BD1A6FD1E89467500EA0C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBD58031E66DA190032256B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD1A6961E8943C400EA0C1A;
+			remoteInfo = "APIKit-macOS";
+		};
+		0BD1A70D1E8946CC00EA0C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BBD58031E66DA190032256B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD1A6CD1E8944F100EA0C1A;
+			remoteInfo = "APIKit-tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0BBD580C1E66DA190032256B /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +114,13 @@
 		0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/tvOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
 		0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/tvOS/ProcedureKit.framework; sourceTree = "<group>"; };
+		0BD1A6E81E8945E700EA0C1A /* APIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1A6EA1E8945E700EA0C1A /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		0BD1A6EC1E8945E700EA0C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD1A6F71E89467500EA0C1A /* APIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1A7071E8946CC00EA0C1A /* APIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD1A7091E8946CC00EA0C1A /* Tests_tvOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_tvOS.swift; sourceTree = "<group>"; };
+		0BD1A70B1E8946CC00EA0C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmarshallProcedure.swift; sourceTree = "<group>"; };
 		0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidation.swift; sourceTree = "<group>"; };
@@ -126,6 +164,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BD1A6E51E8945E700EA0C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6ED1E8945E700EA0C1A /* APIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6F41E89467500EA0C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6FC1E89467500EA0C1A /* APIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A7041E8946CC00EA0C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A70C1E8946CC00EA0C1A /* APIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,6 +201,8 @@
 				0BD1A6901E89425400EA0C1A /* fastlane */,
 				0BBD581C1E66DAE70032256B /* .swiftlint.yml */,
 				0BBD58171E66DABC0032256B /* Sources */,
+				0BD1A6E91E8945E700EA0C1A /* Tests */,
+				0BD1A7081E8946CC00EA0C1A /* Tests-tvOS */,
 				0BBD580D1E66DA190032256B /* Products */,
 				0BBD582A1E66DE8A0032256B /* Frameworks */,
 			);
@@ -151,6 +215,9 @@
 				0BD1A6971E8943C400EA0C1A /* APIKit.framework */,
 				0BD1A6B31E89448A00EA0C1A /* APIKit.framework */,
 				0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */,
+				0BD1A6E81E8945E700EA0C1A /* APIKitTests.xctest */,
+				0BD1A6F71E89467500EA0C1A /* APIKitTests.xctest */,
+				0BD1A7071E8946CC00EA0C1A /* APIKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,9 +227,9 @@
 			children = (
 				0BBD58181E66DABC0032256B /* APIKit.h */,
 				0BBD58191E66DABC0032256B /* Info.plist */,
-				0BC2A1BA1E7586D100951F61 /* Protocols */,
 				0BBD58241E66DC390032256B /* Endpoint.swift */,
 				0BBD58261E66DD350032256B /* Marshalling.swift */,
+				0BBD58201E66DB550032256B /* JSON.swift */,
 				0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */,
 				0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */,
 				0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */,
@@ -188,20 +255,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0BC2A1BA1E7586D100951F61 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				0BBD58201E66DB550032256B /* JSON.swift */,
-			);
-			name = Protocols;
-			sourceTree = "<group>";
-		};
 		0BD1A6901E89425400EA0C1A /* fastlane */ = {
 			isa = PBXGroup;
 			children = (
 				0BD1A6911E89425400EA0C1A /* Fastfile */,
 			);
 			path = fastlane;
+			sourceTree = "<group>";
+		};
+		0BD1A6E91E8945E700EA0C1A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1A6EA1E8945E700EA0C1A /* Tests.swift */,
+				0BD1A6EC1E8945E700EA0C1A /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0BD1A7081E8946CC00EA0C1A /* Tests-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BD1A7091E8946CC00EA0C1A /* Tests_tvOS.swift */,
+				0BD1A70B1E8946CC00EA0C1A /* Info.plist */,
+			);
+			path = "Tests-tvOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,12 +393,67 @@
 			productReference = 0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		0BD1A6E71E8945E700EA0C1A /* Tests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD1A6F01E8945E700EA0C1A /* Build configuration list for PBXNativeTarget "Tests-iOS" */;
+			buildPhases = (
+				0BD1A6E41E8945E700EA0C1A /* Sources */,
+				0BD1A6E51E8945E700EA0C1A /* Frameworks */,
+				0BD1A6E61E8945E700EA0C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BD1A6EF1E8945E700EA0C1A /* PBXTargetDependency */,
+			);
+			name = "Tests-iOS";
+			productName = Tests;
+			productReference = 0BD1A6E81E8945E700EA0C1A /* APIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BD1A6F61E89467500EA0C1A /* Tests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD1A6FF1E89467500EA0C1A /* Build configuration list for PBXNativeTarget "Tests-macOS" */;
+			buildPhases = (
+				0BD1A6F31E89467500EA0C1A /* Sources */,
+				0BD1A6F41E89467500EA0C1A /* Frameworks */,
+				0BD1A6F51E89467500EA0C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BD1A6FE1E89467500EA0C1A /* PBXTargetDependency */,
+			);
+			name = "Tests-macOS";
+			productName = "Tests-macOS";
+			productReference = 0BD1A6F71E89467500EA0C1A /* APIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BD1A7061E8946CC00EA0C1A /* Tests-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BD1A70F1E8946CC00EA0C1A /* Build configuration list for PBXNativeTarget "Tests-tvOS" */;
+			buildPhases = (
+				0BD1A7031E8946CC00EA0C1A /* Sources */,
+				0BD1A7041E8946CC00EA0C1A /* Frameworks */,
+				0BD1A7051E8946CC00EA0C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BD1A70E1E8946CC00EA0C1A /* PBXTargetDependency */,
+			);
+			name = "Tests-tvOS";
+			productName = "Tests-tvOS";
+			productReference = 0BD1A7071E8946CC00EA0C1A /* APIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0BBD58031E66DA190032256B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = yageek;
 				TargetAttributes = {
@@ -339,6 +471,18 @@
 						ProvisioningStyle = Automatic;
 					};
 					0BD1A6CD1E8944F100EA0C1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0BD1A6E71E8945E700EA0C1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0BD1A6F61E89467500EA0C1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0BD1A7061E8946CC00EA0C1A = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -360,6 +504,9 @@
 				0BD1A6961E8943C400EA0C1A /* APIKit-macOS */,
 				0BD1A6B21E89448A00EA0C1A /* APIKit-watchOS */,
 				0BD1A6CD1E8944F100EA0C1A /* APIKit-tvOS */,
+				0BD1A6E71E8945E700EA0C1A /* Tests-iOS */,
+				0BD1A6F61E89467500EA0C1A /* Tests-macOS */,
+				0BD1A7061E8946CC00EA0C1A /* Tests-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -387,6 +534,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0BD1A6CC1E8944F100EA0C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6E61E8945E700EA0C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6F51E89467500EA0C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A7051E8946CC00EA0C1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,7 +661,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BD1A6E41E8945E700EA0C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A6EB1E8945E700EA0C1A /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A6F31E89467500EA0C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A7021E8946A900EA0C1A /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BD1A7031E8946CC00EA0C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD1A70A1E8946CC00EA0C1A /* Tests_tvOS.swift in Sources */,
+				0BD1A7121E8946E400EA0C1A /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BD1A6EF1E8945E700EA0C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BBD580B1E66DA190032256B /* APIKit-iOS */;
+			targetProxy = 0BD1A6EE1E8945E700EA0C1A /* PBXContainerItemProxy */;
+		};
+		0BD1A6FE1E89467500EA0C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BD1A6961E8943C400EA0C1A /* APIKit-macOS */;
+			targetProxy = 0BD1A6FD1E89467500EA0C1A /* PBXContainerItemProxy */;
+		};
+		0BD1A70E1E8946CC00EA0C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BD1A6CD1E8944F100EA0C1A /* APIKit-tvOS */;
+			targetProxy = 0BD1A70D1E8946CC00EA0C1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0BBD58121E66DA190032256B /* Debug */ = {
@@ -660,7 +871,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -686,7 +897,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -710,7 +921,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -736,7 +947,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -761,7 +972,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -786,12 +997,90 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.yageek.APIKit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = APIKit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		0BD1A6F11E8945E700EA0C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0BD1A6F21E8945E700EA0C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0BD1A7001E89467500EA0C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0BD1A7011E89467500EA0C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0BD1A7101E8946CC00EA0C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		0BD1A7111E8946CC00EA0C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
+				PRODUCT_NAME = APIKitTests;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -838,6 +1127,30 @@
 			buildConfigurations = (
 				0BD1A6D41E8944F200EA0C1A /* Debug */,
 				0BD1A6D51E8944F200EA0C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BD1A6F01E8945E700EA0C1A /* Build configuration list for PBXNativeTarget "Tests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD1A6F11E8945E700EA0C1A /* Debug */,
+				0BD1A6F21E8945E700EA0C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BD1A6FF1E89467500EA0C1A /* Build configuration list for PBXNativeTarget "Tests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD1A7001E89467500EA0C1A /* Debug */,
+				0BD1A7011E89467500EA0C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BD1A70F1E8946CC00EA0C1A /* Build configuration list for PBXNativeTarget "Tests-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD1A7101E8946CC00EA0C1A /* Debug */,
+				0BD1A7111E8946CC00EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

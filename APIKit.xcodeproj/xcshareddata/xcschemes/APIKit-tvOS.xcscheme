@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0BD1A6CD1E8944F100EA0C1A"
-               BuildableName = "APIKit-tvOS.framework"
+               BuildableName = "APIKit.framework"
                BlueprintName = "APIKit-tvOS"
                ReferencedContainer = "container:APIKit.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0BD1A7061E8946CC00EA0C1A"
+               BuildableName = "APIKitTests.xctest"
+               BlueprintName = "Tests-tvOS"
+               ReferencedContainer = "container:APIKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0BD1A6CD1E8944F100EA0C1A"
+            BuildableName = "APIKit.framework"
+            BlueprintName = "APIKit-tvOS"
+            ReferencedContainer = "container:APIKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BD1A6CD1E8944F100EA0C1A"
-            BuildableName = "APIKit-tvOS.framework"
+            BuildableName = "APIKit.framework"
             BlueprintName = "APIKit-tvOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0BD1A6CD1E8944F100EA0C1A"
-            BuildableName = "APIKit-tvOS.framework"
+            BuildableName = "APIKit.framework"
             BlueprintName = "APIKit-tvOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>

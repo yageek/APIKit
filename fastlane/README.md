@@ -33,6 +33,11 @@ xcode-select --install
 fastlane build
 ```
 
+### test
+```
+fastlane test
+```
+
 
 ----
 

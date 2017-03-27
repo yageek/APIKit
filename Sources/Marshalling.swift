@@ -31,7 +31,7 @@ public protocol UnmarshallerStream {
 
 public protocol MarshallerStream {
     associatedtype RepresentationValue
-    func marshal(value: RepresentationValue, stream: OutputStream) throws
+    func marshal(stream: InputStream) throws -> RepresentationValue
 }
 
 public protocol Marshable {
