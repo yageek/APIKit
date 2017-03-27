@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BD1A6961E8943C400EA0C1A"
-               BuildableName = "APIKit.framework"
-               BlueprintName = "APIKit-macOS"
+               BlueprintIdentifier = "0BD1A6B21E89448A00EA0C1A"
+               BuildableName = "APIKit-watchOS.framework"
+               BlueprintName = "APIKit-watchOS"
                ReferencedContainer = "container:APIKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BD1A6961E8943C400EA0C1A"
-            BuildableName = "APIKit.framework"
-            BlueprintName = "APIKit-macOS"
+            BlueprintIdentifier = "0BD1A6B21E89448A00EA0C1A"
+            BuildableName = "APIKit-watchOS.framework"
+            BlueprintName = "APIKit-watchOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BD1A6961E8943C400EA0C1A"
-            BuildableName = "APIKit.framework"
-            BlueprintName = "APIKit-macOS"
+            BlueprintIdentifier = "0BD1A6B21E89448A00EA0C1A"
+            BuildableName = "APIKit-watchOS.framework"
+            BlueprintName = "APIKit-watchOS"
             ReferencedContainer = "container:APIKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
