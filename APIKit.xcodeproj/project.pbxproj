@@ -39,7 +39,6 @@
 		0BD1A6C41E8944B100EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
 		0BD1A6C71E8944C500EA0C1A /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6C51E8944C500EA0C1A /* ProcedureKit.framework */; };
 		0BD1A6C81E8944C500EA0C1A /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD1A6C61E8944C500EA0C1A /* ProcedureKitNetwork.framework */; };
-		0BD1A6D21E8944F200EA0C1A /* APIKit-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BD1A6D61E89450800EA0C1A /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD58181E66DABC0032256B /* APIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BD1A6D71E89450F00EA0C1A /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58201E66DB550032256B /* JSON.swift */; };
 		0BD1A6D81E89450F00EA0C1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58241E66DC390032256B /* Endpoint.swift */; };
@@ -82,8 +81,6 @@
 		0BD1A6C51E8944C500EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/watchOS/ProcedureKit.framework; sourceTree = "<group>"; };
 		0BD1A6C61E8944C500EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/watchOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
 		0BD1A6CE1E8944F100EA0C1A /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIKit-tvOS.h"; sourceTree = "<group>"; };
-		0BD1A6D11E8944F200EA0C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BD1A6E01E89452B00EA0C1A /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/tvOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
 		0BD1A6E11E89452B00EA0C1A /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/tvOS/ProcedureKit.framework; sourceTree = "<group>"; };
 		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
@@ -142,7 +139,6 @@
 				0BD1A6901E89425400EA0C1A /* fastlane */,
 				0BBD581C1E66DAE70032256B /* .swiftlint.yml */,
 				0BBD58171E66DABC0032256B /* Sources */,
-				0BD1A6CF1E8944F200EA0C1A /* APIKit-tvOS */,
 				0BBD580D1E66DA190032256B /* Products */,
 				0BBD582A1E66DE8A0032256B /* Frameworks */,
 			);
@@ -208,15 +204,6 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
-		0BD1A6CF1E8944F200EA0C1A /* APIKit-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				0BD1A6D01E8944F200EA0C1A /* APIKit-tvOS.h */,
-				0BD1A6D11E8944F200EA0C1A /* Info.plist */,
-			);
-			path = "APIKit-tvOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -249,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD1A6D61E89450800EA0C1A /* APIKit.h in Headers */,
-				0BD1A6D21E8944F200EA0C1A /* APIKit-tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

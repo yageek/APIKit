@@ -1,5 +1,8 @@
 lane :build do
     bundle_install
     xcodebuild(scheme: "APIKit-iOS", project: "APIKit.xcodeproj")
+    xcodebuild(scheme: "APIKit-macOS", project: "APIKit.xcodeproj")
+    xcodebuild(scheme: "APIKit-tvOS", project: "APIKit.xcodeproj")
+    xcodebuild(scheme: "APIKit-watchOS", project: "APIKit.xcodeproj")
     jazzy(config: ".jazzy.yaml")
 end
