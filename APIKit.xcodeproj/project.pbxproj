@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBD58111E66DA190032256B /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD580F1E66DA190032256B /* APIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBD581A1E66DABC0032256B /* APIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBD58181E66DABC0032256B /* APIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBD58211E66DB550032256B /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58201E66DB550032256B /* JSON.swift */; };
+		0BBD58251E66DC390032256B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58241E66DC390032256B /* Endpoint.swift */; };
+		0BBD58271E66DD350032256B /* Marshalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58261E66DD350032256B /* Marshalling.swift */; };
+		0BBD58291E66DE6D0032256B /* BuildRequestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */; };
+		0BBD582C1E66DE8A0032256B /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */; };
+		0BBD582E1E66DE950032256B /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */; };
+		0BD1A68A1E893C6200EA0C1A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1A6891E893C6200EA0C1A /* Error.swift */; };
+		0BDCA44B1E793646001D5443 /* DownloadProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */; };
+		0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */; };
+		0BDCA44F1E793A5B001D5443 /* ResponseValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */; };
+		0BDCA4511E793B08001D5443 /* ValidateResponseProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BBD580C1E66DA190032256B /* APIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BBD580F1E66DA190032256B /* APIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKit.h; sourceTree = "<group>"; };
-		0BBD58101E66DA190032256B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBD58181E66DABC0032256B /* APIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKit.h; sourceTree = "<group>"; };
+		0BBD58191E66DABC0032256B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBD581C1E66DAE70032256B /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		0BBD581E1E66DAF20032256B /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .jazzy.yaml; sourceTree = "<group>"; };
+		0BBD58201E66DB550032256B /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		0BBD58221E66DB8C0032256B /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		0BBD58241E66DC390032256B /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		0BBD58261E66DD350032256B /* Marshalling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marshalling.swift; sourceTree = "<group>"; };
+		0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildRequestProcedure.swift; sourceTree = "<group>"; };
+		0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKit.framework; path = Carthage/Build/iOS/ProcedureKit.framework; sourceTree = "<group>"; };
+		0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProcedureKitNetwork.framework; path = Carthage/Build/iOS/ProcedureKitNetwork.framework; sourceTree = "<group>"; };
+		0BD1A6891E893C6200EA0C1A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadProcedure.swift; sourceTree = "<group>"; };
+		0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnmarshallProcedure.swift; sourceTree = "<group>"; };
+		0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseValidation.swift; sourceTree = "<group>"; };
+		0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateResponseProcedure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBD582E1E66DE950032256B /* ProcedureKitNetwork.framework in Frameworks */,
+				0BBD582C1E66DE8A0032256B /* ProcedureKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +57,12 @@
 		0BBD58021E66DA190032256B = {
 			isa = PBXGroup;
 			children = (
-				0BBD580E1E66DA190032256B /* APIKit */,
+				0BBD58221E66DB8C0032256B /* Cartfile */,
+				0BBD581E1E66DAF20032256B /* .jazzy.yaml */,
+				0BBD581C1E66DAE70032256B /* .swiftlint.yml */,
+				0BBD58171E66DABC0032256B /* Sources */,
 				0BBD580D1E66DA190032256B /* Products */,
+				0BBD582A1E66DE8A0032256B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,13 +74,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BBD580E1E66DA190032256B /* APIKit */ = {
+		0BBD58171E66DABC0032256B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0BBD580F1E66DA190032256B /* APIKit.h */,
-				0BBD58101E66DA190032256B /* Info.plist */,
+				0BBD58181E66DABC0032256B /* APIKit.h */,
+				0BBD58191E66DABC0032256B /* Info.plist */,
+				0BC2A1BA1E7586D100951F61 /* Protocols */,
+				0BBD58241E66DC390032256B /* Endpoint.swift */,
+				0BBD58261E66DD350032256B /* Marshalling.swift */,
+				0BDCA44E1E793A5B001D5443 /* ResponseValidation.swift */,
+				0BBD58281E66DE6D0032256B /* BuildRequestProcedure.swift */,
+				0BDCA44A1E793646001D5443 /* DownloadProcedure.swift */,
+				0BDCA44C1E7936F6001D5443 /* UnmarshallProcedure.swift */,
+				0BDCA4501E793B08001D5443 /* ValidateResponseProcedure.swift */,
+				0BD1A6891E893C6200EA0C1A /* Error.swift */,
 			);
-			path = APIKit;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0BBD582A1E66DE8A0032256B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BBD582D1E66DE950032256B /* ProcedureKitNetwork.framework */,
+				0BBD582B1E66DE8A0032256B /* ProcedureKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BC2A1BA1E7586D100951F61 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0BBD58201E66DB550032256B /* JSON.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +116,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBD58111E66DA190032256B /* APIKit.h in Headers */,
+				0BBD581A1E66DABC0032256B /* APIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +131,8 @@
 				0BBD58081E66DA190032256B /* Frameworks */,
 				0BBD58091E66DA190032256B /* Headers */,
 				0BBD580A1E66DA190032256B /* Resources */,
+				0BBD581F1E66DB250032256B /* SwiftLint */,
+				0BBD58231E66DBAC0032256B /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -95,6 +154,7 @@
 				TargetAttributes = {
 					0BBD580B1E66DA190032256B = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,11 +186,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BBD581F1E66DB250032256B /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		0BBD58231E66DBAC0032256B /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ProcedureKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ProcedureKitNetwork.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BBD58071E66DA190032256B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDCA44B1E793646001D5443 /* DownloadProcedure.swift in Sources */,
+				0BBD58251E66DC390032256B /* Endpoint.swift in Sources */,
+				0BBD58271E66DD350032256B /* Marshalling.swift in Sources */,
+				0BDCA44F1E793A5B001D5443 /* ResponseValidation.swift in Sources */,
+				0BDCA4511E793B08001D5443 /* ValidateResponseProcedure.swift in Sources */,
+				0BBD58211E66DB550032256B /* JSON.swift in Sources */,
+				0BDCA44D1E7936F6001D5443 /* UnmarshallProcedure.swift in Sources */,
+				0BD1A68A1E893C6200EA0C1A /* Error.swift in Sources */,
+				0BBD58291E66DE6D0032256B /* BuildRequestProcedure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,17 +341,23 @@
 		0BBD58151E66DA190032256B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = APIKit/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,12 +365,17 @@
 		0BBD58161E66DA190032256B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = APIKit/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKit;
@@ -291,6 +404,7 @@
 				0BBD58161E66DA190032256B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

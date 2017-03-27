@@ -1,0 +1,7 @@
+module: APIKit
+author: Yannick Heinrich
+author_url: http://blog.yageek.net
+copyright: "Yannick Heinrich 2017"
+skip_undocumented: false
+framework_root: Sources
+umbrella_header: Sources/APIKit.h
