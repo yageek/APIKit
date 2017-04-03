@@ -856,7 +856,7 @@
 		0BD1A69D1E8943C400EA0C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -882,7 +882,7 @@
 		0BD1A69E1E8943C400EA0C1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1032,7 +1032,7 @@
 		0BD1A7001E89467500EA0C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1047,7 +1047,7 @@
 		0BD1A7011E89467500EA0C1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1062,6 +1062,7 @@
 		0BD1A7101E8946CC00EA0C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
@@ -1075,6 +1076,7 @@
 		0BD1A7111E8946CC00EA0C1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.APIKitTests;
@@ -1113,6 +1115,7 @@
 				0BD1A69E1E8943C400EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD1A6B81E89448A00EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1121,6 +1124,7 @@
 				0BD1A6BA1E89448A00EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD1A6D31E8944F200EA0C1A /* Build configuration list for PBXNativeTarget "APIKit-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1129,6 +1133,7 @@
 				0BD1A6D51E8944F200EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD1A6F01E8945E700EA0C1A /* Build configuration list for PBXNativeTarget "Tests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -1137,6 +1142,7 @@
 				0BD1A6F21E8945E700EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD1A6FF1E89467500EA0C1A /* Build configuration list for PBXNativeTarget "Tests-macOS" */ = {
 			isa = XCConfigurationList;
@@ -1145,6 +1151,7 @@
 				0BD1A7011E89467500EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BD1A70F1E8946CC00EA0C1A /* Build configuration list for PBXNativeTarget "Tests-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1153,6 +1160,7 @@
 				0BD1A7111E8946CC00EA0C1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
