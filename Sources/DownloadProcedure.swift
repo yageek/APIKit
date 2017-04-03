@@ -45,5 +45,4 @@ public final class DataProcedure<E: Endpoint, U: Unmarshaller, T: Unmarshable>: 
 
         super.init(operations: [serializedURLProcedure, downloadProcedure, validateResponse, unmarshallProcedure])
     }
-
 }
